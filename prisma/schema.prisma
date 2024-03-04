@@ -1,0 +1,149 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model cursos {
+  id Int @id @default(autoincrement())
+  nombre String
+  descripcion String
+  significado String @db.VarChar(750)
+  informacion String @db.VarChar(750)
+  url_imagen String
+  duracion String
+  habilidades_a_adquirir String
+  disponible Boolean
+  unidades unidades[]
+  comisiones comisiones[]
+  precios precios[]
+  modalidades modalidades[]
+  descuento descuentos?
+  tipo_de_curso_id Int
+  tipo_de_curso tipos_de_curso @relation(fields: [tipo_de_curso_id], references: [id])
+}
+
+model unidades {
+  id Int @id @default(autoincrement())
+  numero Int
+  titulo String
+  descripcion String @db.VarChar(500)
+  clases Int
+  horas Int
+  curso_id Int
+  curso cursos @relation(fields: [curso_id], references: [id])
+  unidades_tecnologias unidades_tecnologias[]
+}
+
+model tecnologias {
+  id Int @id @default(autoincrement())
+  nombre String
+  url_imagen String
+  unidades_tecnologias unidades_tecnologias[]
+}
+
+model unidades_tecnologias {
+  id Int @id @default(autoincrement())
+  unidad_id Int
+  unidad unidades @relation(fields: [unidad_id], references: [id])
+  tecnologia_id Int
+  tecnologia tecnologias @relation(fields: [tecnologia_id], references: [id])
+
+}
+
+model tipos_de_curso {
+  id Int @id @default(autoincrement())
+  tipo String
+  curso cursos[]
+}
+
+model comisiones {
+  id Int @id @default(autoincrement())
+  curso_id Int
+  curso cursos @relation(fields: [curso_id], references: [id])
+  horarios_cursado horarios_cursado?
+  modalidad_id Int
+  modalidad modalidades @relation(fields: [modalidad_id], references: [id])
+}
+
+model horarios_cursado {
+  id Int @id @default(autoincrement())
+  dias String
+  hora_inicio String
+  hora_fin String
+  fecha_inicio DateTime
+  fecha_fin DateTime
+  comision_id Int @unique
+  comision comisiones @relation(fields: [comision_id], references: [id])
+}
+
+model modalidades {
+  id Int @id @default(autoincrement())
+  tipo String
+  titulo String
+  subtitulo String
+  comision comisiones[]
+  curso_id Int
+  items String @db.VarChar(750)
+  curso cursos @relation(fields: [curso_id], references: [id])
+}
+
+model precios {
+  id Int @id @default(autoincrement())
+  precio Float
+  cuotas String
+  curso_id Int
+  curso cursos @relation(fields: [curso_id], references: [id])
+  moneda_id Int
+  moneda monedas @relation(fields: [moneda_id], references: [id])
+}
+
+model monedas {
+  id Int @id @default(autoincrement())
+  nombre String
+  descripcion String
+  precio precios[]
+  pais paises[]
+}
+
+model paises {
+  id Int @id @default(autoincrement())
+  nombre String
+  moneda_id Int
+  moneda monedas @relation(fields: [moneda_id], references: [id])
+  pais_medios_de_pago pais_medios_de_pago[]
+}
+
+model pais_medios_de_pago {
+  id Int @id @default(autoincrement())
+  pais_id Int
+  pais paises @relation(fields: [pais_id], references: [id])
+  medio_de_pago_id Int
+  medio_de_pago medios_de_pago@relation(fields: [medio_de_pago_id], references: [id])
+
+}
+
+model medios_de_pago{
+  id Int @id @default(autoincrement())
+  nombre String
+  url_imagen String
+  pais_medios_de_pago pais_medios_de_pago[]
+}
+
+model descuentos {
+  id Int @id @default(autoincrement())
+  curso_id Int @unique
+  fecha_inicio DateTime
+  fecha_fin DateTime
+  porcentaje Int
+  curso cursos @relation(fields:[curso_id], references: [id])  
+}

@@ -1,0 +1,365 @@
+[2024-03-01 12:47:56.777 PM] error: 	No se encontró el precioError: No se encontró el precio
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:15:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:35:59.806 PM] error: 	No se encontró el parámetro monedaIdError: No se encontró el parámetro monedaId
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 04:36:06.261 PM] error: 	No se encontró el parámetro monedaIdError: No se encontró el parámetro monedaId
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 04:36:09.277 PM] error: 	No se encontró el descuentoError: No se encontró el descuento
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:36:35.886 PM] error: 	No se encontró el descuentoError: No se encontró el descuento
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:36:54.000 PM] error: 	No se encontró el descuentoError: No se encontró el descuento
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:37:56.287 PM] error: 	No se encontró el descuentoError: No se encontró el descuento
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:38:50.241 PM] error: 	No se encontró el descuentoError: No se encontró el descuento
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:49:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 04:40:33.146 PM] error: 	No se encontró el parámetro monedaIdError: No se encontró el parámetro monedaId
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 04:41:48.837 PM] error: 	No se encontró el parámetro monedaIdError: No se encontró el parámetro monedaId
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 08:12:43.629 PM] error: 	Por favor ingrese el id de la monedaError: Por favor ingrese el id de la moneda
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 08:12:45.000 PM] error: 	Por favor ingrese el id de la monedaError: Por favor ingrese el id de la moneda
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 08:12:47.010 PM] error: 	Por favor ingrese el id de la monedaError: Por favor ingrese el id de la moneda
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 08:12:55.666 PM] error: 	No se encontró el precioError: No se encontró el precio
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (/home/federico/Escritorio/Personal Projects/Challenge/App/src/services/cursos.service.ts:6:65)
+[2024-03-02 08:13:43.368 PM] error: 	Por favor ingrese el id de la monedaError: Por favor ingrese el id de la moneda
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:23:25
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursoById (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:37:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-02 08:18:51.172 PM] error: 	ErrorError: Error
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:11
+    at Generator.next (<anonymous>)
+    at /home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:4:12)
+    at getCursos (/home/federico/Escritorio/Personal Projects/Challenge/App/src/controllers/cursos.controller.ts:20:12)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/federico/Escritorio/Personal Projects/Challenge/App/node_modules/express/lib/router/layer.js:95:5)
+[2024-03-03 01:08:09.634 AM] error: 	
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:13
+   | 
+12 |   provider = "mysql"
+13 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1Error: 
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:13
+   | 
+12 |   provider = "mysql"
+13 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:15:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)
+[2024-03-03 01:08:29.377 AM] error: 	
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:13
+   | 
+12 |   provider = "mysql"
+13 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1Error: 
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:13
+   | 
+12 |   provider = "mysql"
+13 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:15:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)
+[2024-03-03 01:08:45.912 AM] error: 	
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+The table `cursos` does not exist in the current database.Error: 
+Invalid `prisma.cursos.findMany()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:7:49
+
+  4 
+  5 export async function getCursosService(monedaId: number) {
+  6   try {
+→ 7     const cursos: Curso[] = await prisma.cursos.findMany(
+The table `cursos` does not exist in the current database.
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:15:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)
+[2024-03-03 10:20:13.235 PM] error: 	
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.Error: 
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)
+[2024-03-03 10:20:51.155 PM] error: 	
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.Error: 
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)
+[2024-03-03 10:20:53.538 PM] error: 	
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.Error: 
+Invalid `prisma.precios.findFirst()` invocation in
+C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:21:41
+
+  18 
+  19 async function getPrecioCursoService(monedaId: number, cursoId: number) {
+  20   try {
+→ 21     const precio = await prisma.precios.findFirst({
+           where: {
+             curso_id: 1,
+         +   moneda_id: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[],
+         +     notIn: Int[],
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           }
+         })
+
+Argument `moneda_id` is missing.
+    at C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:48:11
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\fede-\Documents\Proyectos\depcsuite_challenge\src\services\cursos.service.ts:6:65)

@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #333333;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.appContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+button:hover {
+  box-shadow: inset 0 0 0 2.5px #00000047;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  background-image: url(./assets/__background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.backgroundTech {
+  mix-blend-mode: color-dodge;
+  padding-bottom: 20vh;
+}
+
+.appContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.logoAcademia {
+  margin-right: 15rem;
+  cursor: pointer;
+}
+
+.navbarList {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 16px;
+  margin-right: 5vw;
+}
+
+.navbarList > li {
+  cursor: pointer;
+}
+
+.navbarButton {
+  background-color: #f31159;
+  color: inherit;
+  font-weight: 400;
+  border-radius: 15px;
+}
+.footer {
+  background-image: url(./assets/fondo_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+.footerRightBottomOficinasContainer {
+  display: flex;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 3.5rem;
+}
+
+.footerRight {
+  padding-left: 10rem;
+  margin-top: 2rem;
+}
+
+.footerRightCenterCursosTextContainer {
+  padding-top: 8px;
+  border-top: 2px solid #f1f1f1;
+}
+
+.footerRightBottomOficinasText {
+  margin: 0;
+  padding: 0;
+}
+
+.footerRightCenterCursosText {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.footerRightCenterCursos > :nth-child(1) {
+  margin-bottom: 8px;
+}
+
+.footerRightBottomOficinasPais {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 2px solid #f1f1f1;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.footerRightBottomAfipQrContainer {
+  padding-left: 10rem;
+}
+
+.footerLeftTop {
+  display: flex;
+  flex-direction: column;
+}
+.footerLeftTopText {
+  font-style: italic;
+  font-size: 18px;
+  color: #ffffffe1;
+  margin: 8px 0 0 0;
+}
+
+.footerLeftBottom {
+  display: flex;
+  flex-direction: column;
+}
+.footerLeftBottomSocialMediaContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerRightCenter {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  width: 100%;
+}
+
+.footerLeftBottomSocialMedia:hover {
+  transform: scale(1.1);
+}
+.footerLeftBottomText {
+  font-size: 18px;
+}
+.footerLeftBottomSocialMedia {
+  cursor: pointer;
+}
+
+.footerRightBottom {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.footerRightBottomOficinasBandera {
+  display: flex;
+  gap: 5px;
+}
+
+.afipQr {
+  mix-blend-mode: luminosity;
+}
+
+.footerTop {
+  gap: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footerBottomDivider {
+  border-top: 2px solid #f1f1f1;
+  height: 100%;
+  width: 80%;
+}
+
+.footerBottomTextUnderlined {
+  text-decoration: underline;
+}
+
+.footerBottomTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.cursoContainerRightArrow {
+  transform: rotate(90deg);
+}
+
+.cursoContainer {
+  min-height: 120vh;
+}
+.cursoMainSection {
+  padding-left: 10rem;
+}
+.tipoCursoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cursoInformacionContainer {
+  padding-left: 10rem;
+}
+
+.cursoInformacionTituloContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.cursoInformacionTituloP {
+  font-size: 20px;
+  color: #f31159;
+}
+
+.cursoInformacionTitulo {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cursoInformacionParrafo {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-left: 7rem;
+  max-width: 50vw;
+}
+
+.bannerTituloText {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.fondoBannerModalidad {
+  background-image: url(./assets/fondo_modalidad.png);
+}
+
+.fondoBannerCurso {
+  background-image: url(./assets/fondo_curso.png);
+}
+.fondoBannerModalidad,
+.fondoBannerCurso {
+  padding-left: 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.unidadContainer {
+  padding-left: 15rem;
+}
+.unidadNumero {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.unidadTituloContainer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.unidadTitulo {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.unidadBottomArrow {
+  cursor: pointer;
+}
+
+.unidadDescripcionContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.unidadDescripcion {
+  font-size: 15px;
+  max-width: 35vw;
+  margin-top: 0;
+}
+.unidadInformacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.unidadClases {
+  width: fit-content;
+}
+.unidadClases > p {
+  margin: 0;
+}
+
+.tecnologiasContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.tecnologiaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tecnologiaNombre {
+  margin: 0;
+  font-size: 14px;
+}
+
+.unidadClasesText {
+  width: fit-content;
+  overflow-wrap: unset;
+}
+.modalidadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalidadImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalidadBanner {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  background-image: url(./assets/fondo_modalidad.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 100px;
+}
+
+.modalidadInformacion {
+  margin-left: 1rem;
+  max-width: 40rem;
+  min-width: 30rem;
+}
+
+.modalidadTitulo {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.modalidadSubtitulo {
+  font-size: 14px;
+  margin: 0;
+}
+
+.modalidadInscribirButton {
+  color: #f31159;
+  font-size: 20px;
+  font-weight: 500;
+  width: 15rem;
+  height: 3.5rem;
+}
+
+.modalidadButtonContainer {
+  margin-left: 8rem;
+}
+
+.modalidadPrecio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 2rem;
+}
+
+.modalidadPrecio > p {
+  margin: 0;
+}
+
+.precioAnteriorContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.precioAnteriorContainer > p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.precioAnterior {
+  text-decoration: line-through;
+}
+
+.cantidadCuotas {
+  font-size: 12px;
+}
+
+.precio {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.otrosMediosDePagoText {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.medioDePagoContainer, .inscripcionContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  width: fit-content;
+  max-width: 30%;
+  height: fit-content;
+}
+.medioDePagoContainer{
+  background-color: #3a3a3a;
+}
+.inscripcionContainer{
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
+  min-width: 30vw;
+}
+.inscripcionModalButton{
+  background-color: #f31159;
+  color: white;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+  
+.confirmarInscripcionText{
+  color: #f31159;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.inscripcionCursoNombre{
+  color: #f31159;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.inscripcionModalidadText, .inscripcionFechaInicioText{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+}
+.inscripcionHorarioDeCursada{
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+.inscripcionIncluye{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+
+}
+.inscripcionFechaInicioText{
+margin: 0 0 1rem 0;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+.closeButton {
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.mediosDePagoHeader {
+  width: fit-content;
+  border-bottom: 2px solid #f31159;
+}
+
+.medioDePagoPais {
+  font-size: 14px;
+}
+
+.mediosDePagoBody {
+  display: flex;
+  flex-direction: column;
+}
+.mediosDePagoImagenesContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #f31159;
+}
+
+.medioDePagoImg {
+  width: 125px;
+  filter: contrast(.8) invert(.8);
+}
+
+.otrosMediosDePagoContainer{
+  display:flex;
+}
+.mediosDePagoPrecioSinDescuento{
+  font-size: 12px;
+  margin: 0;
+}
+
+.medioDePagoPais{
+  font-size: 18px;
+}
+
+.mediosDePagoBodyText{
+  margin: 1rem 0 0 0;
+}
+
+.mediosDePagoPrecioConDescuento{
+  margin: 0;
+  font-weight: 500;
+}
